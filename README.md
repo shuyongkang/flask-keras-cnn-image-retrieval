@@ -1,10 +1,9 @@
-# Image Retrieval Engine Based on Keras
+﻿# Image Retrieval Engine Based on Keras
 
 [![License](https://img.shields.io/badge/license-BSD-blue.svg)](../LICENSE)
 
 ## 演示
-
-[演示地址](http://202.120.39.161:55555/)(不能访问，没钱续VPS了)，跑在CPU上，web界面采用的[SoTu](https://github.com/willard-yuan/SoTu)
+，web界面采用的[SoTu](https://github.com/willard-yuan/SoTu)
 
 ## 环境
 
@@ -48,10 +47,6 @@ python query_online.py -query database/001_accordion_image_0001.jpg -index featu
 
 ### 更新
 
-- 针对近期有小伙伴反映的keras版本的问题，已将其进行到最新版本，并且特征提取代码大幅精简。
-- 显示检索得到的图片， 可自由定义查询图片及检索图片集
-
-### Goal
 
 - [x] 重新用flask写web界面，已完成。
 
